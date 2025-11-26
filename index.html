@@ -55,19 +55,29 @@
             background: #ddd;
             text-align: center;
         }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+        }
     </style>
 </head>
 <body>
 
 <!-- Sidebar Navigation -->
-<div class="sidebar">
-    <h2>Nasrin</h2>
-    <p class="mt-3">Frontend Developer</p>
+<div class="sidebar text-center">
+    <img src="nasrin.png" class="profile-img mt-2" alt="Nasrin Photo">
+    <h2 class="mt-3">Nasrin Inamdar</h2>
+    <p class="mt-1">Frontend Developer</p>
 
-    <a href="#">About</a>
-    <a href="#">Projects</a>
-    <a href="#">Skills</a>
-    <a href="#">Contact</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
 </div>
 
 <!-- Main Content Area -->
@@ -77,9 +87,38 @@
     <section id="about">
         <h2 class="title">About Me</h2>
         <p class="mt-3 fs-5">
-            Hi! I'm <strong>Nasrin Inamdar</strong>, a passionate Frontend Developer specializing in 
-            <strong>React.js, JavaScript, UI/UX, Bootstrap, and Tailwind CSS</strong>.
+            Hello! I'm <strong>Nasrin Inamdar</strong>, a dedicated and passionate 
+            <strong>Frontend Developer</strong> currently pursuing the final year of 
+            <strong>BSc IT</strong>.
+            I specialize in building responsive, user-friendly, and attractive web interfaces using  
+            <strong>HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS</strong>.
         </p>
+
+        <p class="fs-5">
+            I love creating clean, modern UI designs and improving website user experience.  
+            I am actively looking for an <strong>Internship or Entry-Level Frontend Developer role</strong>.
+        </p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="mt-5">
+        <h2 class="title">Education</h2>
+        <ul class="fs-5 mt-3">
+            <li><strong>BSc Information Technology</strong><br>
+                Tilak Education Society's S. K. College of Science & Commerce<br>
+                <em>Final Year (2025)</em>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="mt-5">
+        <h2 class="title">Certifications</h2>
+        <ul class="fs-5 mt-3">
+            <li>Udemy – HTML & CSS Bootcamp</li>
+            <li>Udemy – Modern JavaScript (ES6+) Course</li>
+            <li>Udemy – Web Development Fundamentals</li>
+        </ul>
     </section>
 
     <!-- Projects Section -->
@@ -87,26 +126,34 @@
         <h2 class="title mb-4">Projects</h2>
 
         <div class="row g-4">
+
             <div class="col-md-4">
                 <div class="card p-4 shadow-sm">
                     <h4>To-Do App</h4>
-                    <p>Task manager with clean UI using vanilla JavaScript.</p>
+                    <p>Task manager with clean UI using HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="btn btn-primary mt-2">Live Demo</a>
+                    <a href="#" class="btn btn-outline-dark mt-2">GitHub</a>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="card p-4 shadow-sm">
                     <h4>Weather App</h4>
-                    <p>Modern UI design using Tailwind CSS + JavaScript.</p>
+                    <p>Weather data fetched using API with Tailwind CSS UI.</p>
+                    <a href="#" class="btn btn-primary mt-2">Live Demo</a>
+                    <a href="#" class="btn btn-outline-dark mt-2">GitHub</a>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="card p-4 shadow-sm">
                     <h4>Portfolio Website</h4>
-                    <p>Attractive UI portfolio built using Bootstrap.</p>
+                    <p>Personal portfolio designed using Bootstrap.</p>
+                    <a href="#" class="btn btn-primary mt-2">Live Demo</a>
+                    <a href="#" class="btn btn-outline-dark mt-2">GitHub</a>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -119,6 +166,7 @@
             <li>JavaScript (ES6+)</li>
             <li>Bootstrap & Tailwind CSS</li>
             <li>Responsive UI Design</li>
+            <li>HTML5 / CSS3</li>
             <li>Git & GitHub</li>
         </ul>
     </section>
@@ -127,7 +175,9 @@
     <section id="contact" class="mt-5">
         <h2 class="title">Contact</h2>
         <p class="fs-5 mt-3">
-            📧 Email: <strong>nasrininamdar.work@gmail.com</strong>
+            📧 Email: <strong>nasrininamdar.work@gmail.com</strong><br>
+            🌍 Location: Mumbai, India<br>
+            🔗 GitHub: <strong>github.com/yourusername</strong>
         </p>
     </section>
 
